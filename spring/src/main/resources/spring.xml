@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--  XML BASED CONFIGURATION  -->
+
+    <!--    &lt;!&ndash; bean definitions here &ndash;&gt;-->
+    <!--    <bean id="doctor" class="demoForSpring.Doctor" >-->
+    <!--        -->
+    <!--        &lt;!&ndash; ASSIGNING VALUES FOR FIELDS&ndash;&gt;-->
+    <!--        &lt;!&ndash; <property name="qualification" value="MBBS"/>&ndash;&gt;-->
+
+    <!--        &lt;!&ndash; ASSIGNING VALUES FOR CONSTRUCTOR&ndash;&gt;-->
+    <!--        <constructor-arg value="MBBS" />-->
+    <!--    </bean>-->
+    <!--    <bean id="nurse" class="demoForSpring.Nurse" >-->
+    <!--    </bean>-->
+    <!--    -->
+
+    <!--  ANNOTATION BASED CONFIGURATION  -->
+    <context:component-scan base-package="demoForSpring"/>
+
+</beans>
